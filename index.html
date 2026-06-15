@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReciclaFácil — Separação e Coleta Seletiva</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <div class="logo">Recicla<span>Fácil</span></div>
+      <ul>
+        <li><a href="#materiais">Materiais</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#impacto">Impacto</a></li>
+        <li><a href="#agendar">Agendar Coleta</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Recicle certo,<br /><em>faça a diferença</em></h1>
+      <p>
+        Aprenda a separar corretamente papel, plástico, metal e vidro — e agende
+        sua coleta seletiva de forma simples e rápida.
+      </p>
+      <a href="#materiais" class="btn-hero">Começar a aprender 🌱</a>
+      <div class="hero-badges">
+        <div class="badge"><span class="badge-icon">📄</span> Papel</div>
+        <div class="badge"><span class="badge-icon">🥤</span> Plástico</div>
+        <div class="badge"><span class="badge-icon">🥫</span> Metal</div>
+        <div class="badge"><span class="badge-icon">🧴</span> Vidro</div>
+      </div>
+    </section>
+
+    <!-- MATERIAIS -->
+    <section id="materiais">
+      <div class="container">
+        <span class="section-tag">Guia de separação</span>
+        <h2 class="section-title">O que vai em cada lixeira?</h2>
+        <p class="section-sub">
+          Separar corretamente é o primeiro passo para a reciclagem funcionar.
+          Veja o que pode e o que não pode ir em cada categoria.
+        </p>
+
+        <div class="materiais-grid">
+          <!-- PAPEL -->
+          <div class="material-card papel">
+            <div class="material-icone">📄</div>
+            <h3>Papel</h3>
+            <p>
+              Lixeira <strong class="cor-azul">Azul</strong> — Inclui papelão,
+              jornais, revistas e embalagens de papel.
+            </p>
+            <div class="material-listas">
+              <div class="lista-tipo sim">
+                <strong>✓ Pode</strong>
+                <ul>
+                  <li>Jornais e revistas</li>
+                  <li>Papelão limpo</li>
+                  <li>Caixas de cereal</li>
+                  <li>Folhas de papel</li>
+                  <li>Envelopes</li>
+                </ul>
+              </div>
+              <div class="lista-tipo nao">
+                <strong>✗ Não pode</strong>
+                <ul>
+                  <li>Papel higiênico</li>
+                  <li>Papel carbono</li>
+                  <li>Papel sujo/gorduroso</li>
+                  <li>Guardanapos usados</li>
+                  <li>Papel plastificado</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- PLÁSTICO -->
+          <div class="material-card plastico">
+            <div class="material-icone">🥤</div>
+            <h3>Plástico</h3>
+            <p>
+              Lixeira <strong class="cor-vermelho">Vermelha</strong> — Garrafas,
+              embalagens, sacolas e utensílios plásticos.
+            </p>
+            <div class="material-listas">
+              <div class="lista-tipo sim">
+                <strong>✓ Pode</strong>
+                <ul>
+                  <li>Garrafas PET</li>
+                  <li>Embalagens de xampu</li>
+                  <li>Potes de sorvete</li>
+                  <li>Sacolas plásticas</li>
+                  <li>Canudos</li>
+                </ul>
+              </div>
+              <div class="lista-tipo nao">
+                <strong>✗ Não pode</strong>
+                <ul>
+                  <li>Fraldas descartáveis</li>
+                  <li>Talheres com restos</li>
+                  <li>Embalagens de remédio</li>
+                  <li>Isopor sujo</li>
+                  <li>Tomadas e fios</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- METAL -->
+          <div class="material-card metal">
+            <div class="material-icone">🥫</div>
+            <h3>Metal</h3>
+            <p>
+              Lixeira <strong class="cor-amarelo">Amarela</strong> — Latas,
+              tampas, utensílios e embalagens metálicas.
+            </p>
+            <div class="material-listas">
+              <div class="lista-tipo sim">
+                <strong>✓ Pode</strong>
+                <ul>
+                  <li>Latas de alumínio</li>
+                  <li>Latas de conserva</li>
+                  <li>Tampas metálicas</li>
+                  <li>Papel alumínio</li>
+                  <li>Ferragens</li>
+                </ul>
+              </div>
+              <div class="lista-tipo nao">
+                <strong>✗ Não pode</strong>
+                <ul>
+                  <li>Latas com resíduos</li>
+                  <li>Clipes e grampos</li>
+                  <li>Pilhas e baterias</li>
+                  <li>Esponjas de aço usadas</li>
+                  <li>Latas de tinta</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- VIDRO -->
+          <div class="material-card vidro">
+            <div class="material-icone">🧴</div>
+            <h3>Vidro</h3>
+            <p>
+              Lixeira <strong class="cor-verde">Verde</strong> — Garrafas, potes
+              e recipientes de vidro limpos.
+            </p>
+            <div class="material-listas">
+              <div class="lista-tipo sim">
+                <strong>✓ Pode</strong>
+                <ul>
+                  <li>Garrafas de vidro</li>
+                  <li>Potes de alimentos</li>
+                  <li>Frascos de perfume</li>
+                  <li>Fracos de medicamentos vazios</li>
+                  <li>Vidros de conserva</li>
+                </ul>
+              </div>
+              <div class="lista-tipo nao">
+                <strong>✗ Não pode</strong>
+                <ul>
+                  <li>Espelhos</li>
+                  <li>Lâmpadas</li>
+                  <li>Vidros temperados</li>
+                  <li>Cristais</li>
+                  <li>Cerâmica e porcelana</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DICAS -->
+    <section id="dicas" class="dicas-bg">
+      <div class="container">
+        <span class="section-tag">Boas práticas</span>
+        <h2 class="section-title">Dicas para reciclar melhor</h2>
+        <p class="section-sub">
+          Pequenos hábitos fazem grande diferença na qualidade da reciclagem.
+        </p>
+        <div class="dicas-grid">
+          <div class="dica-item">
+            <div class="dica-num">01</div>
+            <h4>Lave as embalagens</h4>
+            <p>
+              Embalagens sujas com resíduos de alimento contaminam outros
+              recicláveis e vão parar no lixo comum.
+            </p>
+          </div>
+          <div class="dica-item">
+            <div class="dica-num">02</div>
+            <h4>Retire tampas e rótulos</h4>
+            <p>
+              Tampas e rótulos muitas vezes são de materiais diferentes.
+              Separe-os para facilitar o processo.
+            </p>
+          </div>
+          <div class="dica-item">
+            <div class="dica-num">03</div>
+            <h4>Amasse e dobre</h4>
+            <p>
+              Garrafas PET e caixas de papelão amassadas ocupam menos espaço e
+              facilitam o transporte.
+            </p>
+          </div>
+          <div class="dica-item">
+            <div class="dica-num">04</div>
+            <h4>Seque antes de guardar</h4>
+            <p>
+              Embalagens úmidas criam mofo e atraem insetos. Seque antes de
+              jogar na lixeira de recicláveis.
+            </p>
+          </div>
+          <div class="dica-item">
+            <div class="dica-num">05</div>
+            <h4>Cuidado com vidro</h4>
+            <p>
+              Vidros quebrados devem ser acondicionados em caixas de papelão ou dentro de garrafas PET. Envolva os cacos em jornal grosso antes de colocar no recipiente, lacre com fita adesiva e escreva um aviso claro: <b>"Cuidado: Vidro Quebrado".</b>
+            </p>
+          </div>
+          <div class="dica-item">
+            <div class="dica-num">06</div>
+            <h4>Dúvida? Lixo comum</h4>
+            <p>
+              Se não tiver certeza se o material é reciclável, jogue no lixo
+              comum. Contaminação prejudica toda a coleta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACTO -->
+    <section id="impacto">
+      <div class="container">
+        <span class="section-tag">Por que reciclar?</span>
+        <h2 class="section-title">O impacto da reciclagem</h2>
+        <p class="section-sub">
+          Cada material reciclado economiza recursos naturais e energia. Veja
+          alguns números.
+        </p>
+        <div class="impacto-grid">
+          <div class="impacto-card">
+            <div class="impacto-num">95%</div>
+            <div class="impacto-label">
+              de energia economizada ao reciclar alumínio vs produção nova
+            </div>
+          </div>
+          <div class="impacto-card">
+            <div class="impacto-num">17</div>
+            <div class="impacto-label">
+              árvores salvas por tonelada de papel reciclado
+            </div>
+          </div>
+          <div class="impacto-card">
+            <div class="impacto-num">∞</div>
+            <div class="impacto-label">
+              vezes que o vidro pode ser reciclado sem perder qualidade
+            </div>
+          </div>
+          <div class="impacto-card">
+            <div class="impacto-num">450</div>
+            <div class="impacto-label">
+              anos que o plástico leva para se decompor na natureza
+            </div>
+          </div>
+          <div class="impacto-card">
+            <div class="impacto-num">30%</div>
+            <div class="impacto-label">
+              menos CO₂ emitido com papel reciclado em comparação ao virgem
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE O PROJETO -->
+<section id="sobre" class="dicas-bg">
+  <div class="container">
+
+    <span class="section-tag tag-extensionista">
+      Projeto Extensionista
+    </span>
+
+    <p class="sobre-texto">
+      O <strong>ReciclaFácil</strong> é uma iniciativa de extensão universitária
+      que promove a educação ambiental e facilita a coleta seletiva na
+      comunidade, aproximando a tecnologia das necessidades da população.
+    </p>
+
+    <div class="beneficios">
+      <span class="beneficio-item">
+        ✓ Redução do descarte incorreto
+      </span>
+
+      <span class="beneficio-item">
+        ✓ Conscientização ambiental
+      </span>
+
+      <span class="beneficio-item">
+        ✓ Coleta facilitada
+      </span>
+
+      <span class="beneficio-item">
+        ✓ Apoio a cooperativas
+      </span>
+    </div>
+
+  </div>
+</section>
+
+    <!-- FORMULÁRIO -->
+    <section id="agendar" class="form-section">
+      <div class="container">
+        <div class="form-wrapper">
+          <div class="form-info">
+            <span class="section-tag">Coleta Seletiva</span>
+            <h2 class="section-title">Agende a coleta no seu endereço</h2>
+            <p class="form-info-sub">
+              Registre seu pedido de coleta seletiva e nossa equipe irá até você
+              no horário agendado.
+            </p>
+            <ul>
+              <li>
+                <span class="ic">📋</span
+                ><span
+                  >Preencha nome, endereço, data preferida e os materiais que
+                  deseja descartar.</span
+                >
+              </li>
+              <li>
+                <span class="ic">📅</span
+                ><span
+                  >O agendamento é registrado automaticamente no sistema da
+                  comunidade.</span
+                >
+              </li>
+              <li>
+                <span class="ic">✅</span
+                ><span
+                  >Um responsável da coleta confirmará pelo contato
+                  informado.</span
+                >
+              </li>
+              <li>
+                <span class="ic">♻️</span
+                ><span
+                  >Os materiais coletados são encaminhados a cooperativas de
+                  reciclagem parceiras.</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="form-card">
+            <h3>Formulário de Agendamento</h3>
+            <p class="sub">Todos os campos marcados com * são obrigatórios.</p>
+
+            <form id="agendamento-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nome">Nome completo *</label>
+                  <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Seu nome"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="telefone">Telefone</label>
+                  <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="(00) 00000-0000"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu@email.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="endereco">Endereço completo *</label>
+                <input
+                  type="text"
+                  id="endereco"
+                  name="endereco"
+                  placeholder="Rua, número, bairro"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="data">Data *</label>
+                  <input type="date" id="data" name="data" required />
+                </div>
+                <div class="form-group">
+                  <label for="turno">Turno *</label>
+                  <select id="turno" name="turno" required>
+                    <option value="">Selecione...</option>
+                    <option value="Manhã (8h–12h)">Manhã (8h–12h)</option>
+                    <option value="Tarde (13h–17h)">Tarde (13h–17h)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Materiais para coleta *</label>
+                <div class="materiais-checkboxes">
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="materiais" value="Papel" /> 📄
+                    Papel
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="materiais" value="Plástico" />
+                    🥤 Plástico
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="materiais" value="Metal" /> 🥫
+                    Metal
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="materiais" value="Vidro" /> 🧴
+                    Vidro
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="obs">Observações (opcional)</label>
+                <textarea
+                  id="obs"
+                  name="obs"
+                  rows="3"
+                  placeholder="Quantidade estimada, instruções de acesso, etc."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit" id="btn-enviar">
+                <span id="btn-texto">Agendar Coleta</span>
+              </button>
+
+              <div id="form-msg"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        <strong>ReciclaFácil</strong> — Projeto de Extensão Universitária para educação ambiental e coleta seletiva na comunidade.
+      </p>
+      <p class="footer-sub">♻️ Juntos por um bairro mais sustentável</p>
+    </footer>
+
+    <!-- CHATBOT -->
+    <div id="chatbot">
+      <button id="chatbot-toggle" aria-label="Abrir chat de ajuda">
+        <span id="chatbot-icon-open">💬</span>
+        <span id="chatbot-icon-close">✕</span>
+      </button>
+
+      <div id="chatbot-window">
+        <div id="chatbot-header">
+          <div id="chatbot-header-info">
+            <span class="chatbot-avatar">♻️</span>
+            <div>
+              <strong>ReciclaBot</strong>
+              <span class="chatbot-status"
+                >Tire suas dúvidas sobre reciclagem</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div id="chatbot-messages"></div>
+
+        <div id="chatbot-quick-replies"></div>
+
+        <form id="chatbot-form">
+          <input
+            type="text"
+            id="chatbot-input"
+            placeholder="Digite sua pergunta..."
+            autocomplete="off"
+          />
+          <button type="submit" id="chatbot-send" aria-label="Enviar">➤</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/chatbot.js"></script>
+  </body>
+</html>
