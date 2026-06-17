@@ -54,6 +54,13 @@ Além disso, o sistema facilita o acesso à coleta seletiva, reduzindo descartes
 
 ---
 
+## 📸 Demonstração
+
+### Formulário de Agendamento
+![Formulário](img/form.png)
+
+---
+
 ## 🌐 Acesso ao projeto
 
 🔗 Site publicado: https://karolinesousaa.github.io/ReciclaFacil/  
